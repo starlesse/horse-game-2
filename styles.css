@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.horse-selection {
+    margin: 20px;
+}
+
+.select-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.race-track {
+    position: relative;
+    width: 80%;
+    height: 320px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    background-color: #f4f4f4;
+}
+
+.finish-line {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background-color: red;
+}
+
+.horses {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.horse {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+#horse1 { background-color: #FF0000; top: 10px; }
+#horse2 { background-color: #00FF00; top: 50px; }
+#horse3 { background-color: #0000FF; top: 90px; }
+#horse4 { background-color: #FFFF00; top: 130px; }
+#horse5 { background-color: #FF00FF; top: 170px; }
+#horse6 { background-color: #00FFFF; top: 210px; }
+#horse7 { background-color: #FFA500; top: 250px; }
+#horse8 { background-color: #800080; top: 290px; }
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}

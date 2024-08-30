@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>말 경주 게임</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>말 경주 게임</h1>
+    <div class="game-info">
+        <p>현재 자산: <span id="current-money">10000</span>원</p>
+        <div class="horse-selection">
+            <p>어떤 말을 선택할까요?</p>
+            <div id="selection">
+                <button data-horse="horse1" class="select-button">말 1</button>
+                <button data-horse="horse2" class="select-button">말 2</button>
+                <button data-horse="horse3" class="select-button">말 3</button>
+                <button data-horse="horse4" class="select-button">말 4</button>
+                <button data-horse="horse5" class="select-button">말 5</button>
+                <button data-horse="horse6" class="select-button">말 6</button>
+                <button data-horse="horse7" class="select-button">말 7</button>
+                <button data-horse="horse8" class="select-button">말 8</button>
+            </div>
+            <p>금액 입력: <input type="number" id="bet-amount" min="1" step="1" value="1"></p>
+        </div>
+    </div>
+    <div class="race-track" style="display: none;">
+        <div class="finish-line"></div>
+        <div class="horses">
+            <div class="horse" id="horse1"></div>
+            <div class="horse" id="horse2"></div>
+            <div class="horse" id="horse3"></div>
+            <div class="horse" id="horse4"></div>
+            <div class="horse" id="horse5"></div>
+            <div class="horse" id="horse6"></div>
+            <div class="horse" id="horse7"></div>
+            <div class="horse" id="horse8"></div>
+        </div>
+    </div>
+    <button id="startButton" style="display: none;">경주 시작</button>
+    <div id="result" style="display: none;"></div>
+    <script src="script.js"></script>
+</body>
+</html>
